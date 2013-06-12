@@ -1,0 +1,13 @@
+{
+    "name": "niels/ganon",
+    "type": "library",
+    "description": "Fast (HTML DOM) parser written in PHP.",
+    "keywords": ["dom", "html", "parser"],
+    "license": ["GPL"],
+    "authors": [
+        {
+            "name": "Niels A.D.",
+            "homepage": "https://code.google.com/p/ganon/"
+        }
+    ],
+}
