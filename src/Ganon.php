@@ -7,6 +7,7 @@
  * @package Ganon
  * @link http://code.google.com/p/ganon/
  * @license http://dev.perl.org/licenses/artistic.html Artistic License
+ * @version 1.1
  */
 
 //START gan_tokenizer.php
@@ -1180,7 +1181,7 @@ class HTML_Node {
 		return array_search($child, $this->children, true);
 	}
 	function hasChild($child) {
-		return ((bool) findChild($child));
+		return ((bool) $this->findChild($child));
 	}
 	function &getChild($child, $ignore_text_comments = false) {
 		if (!is_int($child)) {
